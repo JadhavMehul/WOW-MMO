@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dezign Your Own Website</title>
+        <link rel="icon" type="image/png" sizes="16x16" href="./img/fav-icon.svg">
+        <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/logic_style.css">
+        <link rel="stylesheet" href="css/logic_responsive.css">
+        <link rel="stylesheet" href="css/m_style.css">
+        <link rel="stylesheet" href="./css/m_responsive.css">
+
+        <!-- Google Font Links -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header class="header-top fixed-top">
+            <div class="container desktop d-none d-md-block d-lg-block ">
+                <div class="header-bg">
+                  <div class="row align-items-center">
+                      <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                              <a href="#"><img src="./img/nav_logo.svg" class="img-fluid"></a>
+                     </div>
+                     <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <nav class="navbar navbar-expand-lg">
+                              <div class="collapse navbar-collapse navbar_center justify-content-center" id="navbarNavDesktop">
+                                  <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="product_listing.html">Games Catalogue</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="sell.html">Sell</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="about.html">our story</a>
+                                    </li> 
+                                    <li class="nav-item">
+                                      <a class="nav-link" aria-current="page" href="contact.html">support</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="currency_drop_text_div d-flex gap-1">
+                                            <p class="nav-link curency_dropdown_text pe-0 me-0">GBP £</p>
+                                            <img src="./img/currency_drop_icon.svg" alt="" class="img-fluid">
+                                        </div>
+                                      <div class="currency_dropdown active" id="currency_dropdown">
+                                        <button class="btn btn_currency active">GBP £</button>
+                                        <button class="btn btn_currency">GBP £</button>
+                                        <button class="btn btn_currency">GBP £</button>
+                                        <button class="btn btn_currency">GBP £</button>
+                                      </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <div class="cart_icon_div" id="cart_icon_div_desk">
+                                            <img src="./img/cart_icon.svg" alt="" class="img-fluid">
+                                            <p class="cart_item_number">3</p>
+                                        </div>
+                                        <div class="cart_drop" id="cart_drop">
+                                            <div class="cart_drop_item">
+                                                <div class="pro_im">
+                                                    <img src="./img/product_img.png" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="cart_drop_details">
+                                                    <p class="cart_drop_item_title">Valorant</p>
+                                                    <p class="cart_drop_item_title">Amount: <span>1000 VP Points</span></p>
+                                                    <p class="cart_drop_item_title">SERVER: <span>EU</span></p>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p class="cart_drop_item_price">$22.57</p>
+                                                        <button class="btn_drop_cart">remove</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cart_drop_item">
+                                                <div class="pro_im">
+                                                    <img src="./img/product_img.png" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="cart_drop_details">
+                                                    <p class="cart_drop_item_title">Valorant</p>
+                                                    <p class="cart_drop_item_title">Amount: <span>1000 VP Points</span></p>
+                                                    <p class="cart_drop_item_title">SERVER: <span>EU</span></p>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p class="cart_drop_item_price">$22.57</p>
+                                                        <button class="btn_drop_cart">remove</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cart_drop_item">
+                                                <div class="pro_im">
+                                                    <img src="./img/product_img.png" alt="" class="img-fluid">
+                                                </div>
+                                                <div class="cart_drop_details">
+                                                    <p class="cart_drop_item_title">Valorant</p>
+                                                    <p class="cart_drop_item_title">Amount: <span>1000 VP Points</span></p>
+                                                    <p class="cart_drop_item_title">SERVER: <span>EU</span></p>
+                                                    <div class="d-flex justify-content-between align-items-center">
+                                                        <p class="cart_drop_item_price">$22.57</p>
+                                                        <button class="btn_drop_cart">remove</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cart_drop_calc">
+                                                <div class="d-flex justify-content-between mb-3">
+                                                    <p class="calc_detail_one">discount</p>
+                                                    <p class="calc_price">$5.00</p>
+                                                </div>
+                                                
+                                                <div class="d-flex justify-content-between mb-3">
+                                                    <p class="calc_detail_one">subtotal</p>
+                                                    <p class="calc_price">$5.00</p>
+                                                </div>
+                                                
+                                                <div class="d-flex justify-content-between mt-3">
+                                                    <p class="calc_detail_two">total</p>
+                                                    <p class="calc_total">$55.00</p>
+                                                </div>
+                                            </div>
+                                            <button class="btn btn_about d-flex mx-auto mb-4">Secure checkout</button>
+                                        </div>
+                                    </li>
+                                  </ul>
+                              </div>
+                          </nav>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-2">
+                        <nav class="navbar navbar-expand-lg">
+                            <div class="collapse navbar-collapse navbar_center justify-content-center p-0" id="navbarNavDesktop">
+                                <button class="btn btn_nav_main">
+                                    Login / Register
+                                </button>
+                            </div>
+                        </nav>
+                    </div>
+                    
+                  </div>
+                </div>
+            </div>
+            <div class="mobile d-block d-lg-none d-md-none">
+                <div class="mobile-head d-flex align-items-center justify-content-between">
+                    <div class="cart_icon_div" id="cart_icon_div_mobo">
+                        <img src="./img/cart_icon.svg" alt="" class="img-fluid">
+                        <p class="cart_item_number">3</p>
+                    </div>
+                    <a href="#"><img src="./img/nav_logo_mobo.svg" class="img-fluid"></a>
+                    <div class="d-flex">
+                        <p class="inactive"><img src="./img/hamburger_menu_mob.svg" class="img-fluid"></p>
+                    </div>
+                </div>
+                <div class="mobile-slide-menu" style="display: none;">
+                    <div class="mobile-slide-head">
+                        <p  class="menuactive"><img src="./img/hamburger_menu_close_mob.svg" class="img-fluid"></p>
+                    </div>
+                    <div id="webmobile-menu">
+                        <ul class="navbar-nav navbar-nav_mobi">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="store.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link shalesh" aria-current="page" href="bespoke-packages.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link shalesh" aria-current="page" href="about.html">Contact Us</a>
+                            </li> 
+                            <li class="nav-item">
+                              <a class="nav-link shalesh" aria-current="page" href="contact.html">Account</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="currency_drop_text_div d-flex gap-2">
+                                    <p class="nav-link curency_dropdown_text pe-0">GBP £</p>
+                                    <img src="./img/currency_drop_icon.svg" alt="" class="img-fluid">
+                                </div>
+                              <div class="currency_dropdown active" id="currency_dropdown_mobo">
+                                <button class="btn btn_currency active">GBP £</button>
+                                <button class="btn btn_currency">GBP £</button>
+                                <button class="btn btn_currency">GBP £</button>
+                                <button class="btn btn_currency">GBP £</button>
+                              </div>
+                            </li>
+                            <li class="nav-item">
+                              <button class="btn btn_nav_main d-flex mx-auto" aria-current="page" href="contact.html">Account</button>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                
+                <!-- <div class="cart-slide-menu"> -->
+                    <div class="cart_drop" id="cart_drop_mobo">
+                        <div class="cart_drop_item">
+                            <div class="pro_im">
+                                <img src="./img/product_img.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="cart_drop_details">
+                                <p class="cart_drop_item_title">Valorant</p>
+                                <p class="cart_drop_item_title">Amount: <span>1000 VP Points</span></p>
+                                <p class="cart_drop_item_title">SERVER: <span>EU</span></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="cart_drop_item_price">$22.57</p>
+                                    <button class="btn_drop_cart">remove</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart_drop_item">
+                            <div class="pro_im">
+                                <img src="./img/product_img.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="cart_drop_details">
+                                <p class="cart_drop_item_title">Valorant</p>
+                                <p class="cart_drop_item_title">Amount: <span>1000 VP Points</span></p>
+                                <p class="cart_drop_item_title">SERVER: <span>EU</span></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="cart_drop_item_price">$22.57</p>
+                                    <button class="btn_drop_cart">remove</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cart_drop_item">
+                            <div class="pro_im">
+                                <img src="./img/product_img.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="cart_drop_details">
+                                <p class="cart_drop_item_title">Valorant</p>
+                                <p class="cart_drop_item_title">Amount: <span>1000 VP Points</span></p>
+                                <p class="cart_drop_item_title">SERVER: <span>EU</span></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="cart_drop_item_price">$22.57</p>
+                                    <button class="btn_drop_cart">remove</button>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="btn btn_about d-flex mx-auto my-4">Secure checkout</button>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </header>
+        
+        <section class="home_s1">
+            <div class="container">
+                <div class="home_s1_main_div">
+                    <h3 class="home_s1_pre_title">wow mmo</h3>
+                    <h1 class="home_s1_title">gamers UNIte here</h1>
+                    <p class="home_s1_subtitle">Lorem ipsum dolor sit amet consectetur. Egestas mattis augue sit dictumst metus. Cursus a adipiscing sed ac natoque nam. Urna ut odio ipsum viverra enim aliquet ultrices cursus.</p>
+                    <div class="d-flex gap-3 mobo_col">
+                        <button class="btn btn_about w-100">Discover game loot</button>
+                        <button class="btn btn_about w-100">sell your own loot</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="home_s2">
+            <div class="container">
+                <div class="home_s2_main_div">
+                    <h1 class="home_s2_title">A snippet on <br class="desktop_none"><span>our story</span></h1>
+                    <p class="home_s2_subtitle">Lorem ipsum dolor sit amet consectetur. Semper a tristique in hendrerit nunc elementum. Tristique faucibus eget morbi cursus consectetur cras sed nisi enim. Ipsum ipsum tortor consectetur habitant. Vitae morbi potenti laoreet eget pellentesque.</p>
+                    <button class="btn btn_about">Our story</button>
+                </div>
+            </div>
+            <img src="./img/js1.png" alt="" class="img-fluid js1">
+        </section>
+        <section class="home_s3">
+            <div class="container">
+                <div class="home_s3_all">
+                    <h1 class="home_s3_title">Browse our <span>favourites</span></h1>
+                    <div class="home_s3_carousel">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="product_card">
+                                <img src="./img/product_img.png" alt="" class="img-fluid">
+                                <p class="product_name">Valorant</p>
+                                <button class="btn btn_product">view product</button>
+                            </div>                            
+                            </div>
+                            <div class="item">
+                                <div class="product_card">
+                                <img src="./img/product_img.png" alt="" class="img-fluid">
+                                <p class="product_name">Valorant</p>
+                                <button class="btn btn_product">view product</button>
+                            </div>                            
+                            </div>
+                            <div class="item">
+                                <div class="product_card">
+                                <img src="./img/product_img.png" alt="" class="img-fluid">
+                                <p class="product_name">Valorant</p>
+                                <button class="btn btn_product">view product</button>
+                            </div>                            
+                            </div>
+                            <div class="item">
+                                <div class="product_card">
+                                <img src="./img/product_img.png" alt="" class="img-fluid">
+                                <p class="product_name">Valorant</p>
+                                <button class="btn btn_product">view product</button>
+                            </div>                            
+                            </div>
+                            <div class="item">
+                                <div class="product_card">
+                                <img src="./img/product_img.png" alt="" class="img-fluid">
+                                <p class="product_name">Valorant</p>
+                                <button class="btn btn_product">view product</button>
+                            </div>                            
+                            </div>
+                            <div class="item">
+                                <div class="product_card">
+                                <img src="./img/product_img.png" alt="" class="img-fluid">
+                                <p class="product_name">Valorant</p>
+                                <button class="btn btn_product">view product</button>
+                            </div>                            
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn_about d-flex mx-auto">explore our games</button>
+                </div>
+            </div>
+        </section>
+        <section class="home_s4">
+            <div class="container">
+                <div class="home_s4_main">
+                    <h1 class="home_s4_title"><span>buy</span> and <span>sell </span>all your in-game loot in one place</h1>
+                    <p class="home_s4_subtitle">Lorem ipsum dolor sit amet consectetur. Semper a tristique in hendrerit nunc elementum. Tristique faucibus eget morbi cursus consectetur cras sed nisi enim. Ipsum ipsum tortor consectetur habitant. Vitae morbi potenti laoreet eget pellentesque habitant.
+                        <br><br>
+                        donec. Blandit faucibus consequat dolor lacus nec sit. Tempus cursus ultrices in in. Hendrerit hac ac commodo mauris turpis magna at. Mollis rutrum nibh vitae elit vel est. Placerat mauris urna vulputate ultrices.</p>
+                        <button class="btn btn_about">Learn How to sell</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="about_s2 home_ka_about">
+            <div class="container">
+                <div class="about_s2_content">
+                    <h1 class="about_s2_title">the <span>dev</span> collection</h1>
+                    <div class="row">
+                        <div class="col-md-4 col-6">
+                            <img src="./img/a1.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <img src="./img/a2.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <img src="./img/a3.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <img src="./img/a4.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <img src="./img/a5.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <img src="./img/a6.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./img/ari1.png" alt="" class="img-fluid ari1">
+            <img src="./img/ali1.png" alt="" class="img-fluid ali1">
+            <img src="./img/ami1.png" alt="" class="img-fluid ami1">
+            <img src="./img/ami2.png" alt="" class="img-fluid ami2">
+        </section>
+
+        <section class="home_s5">
+            <div class="container">
+                <div class="home_s5_main">
+                    <h1 class="home_s5_title"><span>Gaming loot</span> like a professional</h1>
+                    <p class="home_s5_subtitle">Lorem ipsum dolor sit amet consectetur. Semper a tristique in hendrerit nunc elementum. Tristique faucibus eget morbi cursus consectetur cras sed nisi enim. Ipsum ipsum tortor consectetur habitant. Vitae morbi potenti laoreet eget pellentesque habitant.
+                        <br><br>
+                        donec. Blandit faucibus consequat dolor lacus nec sit. Tempus cursus ultrices in in. Hendrerit hac ac commodo mauris turpis magna at. Mollis rutrum nibh vitae elit vel est. Placerat mauris urna vulputate ultrices.</p>
+                        <button class="btn btn_about">More about us</button>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="footer_desktop">
+                    <div class="footer_top">
+                        <div class="footer_group">
+                            <div class="footer_group_div">
+                                <img src="./img/footer_logo.svg" alt="" class="img-fluid footer_logo">
+                                <div class="footer_info">
+                                    <img src="./img/footer_email.svg" alt="" class="img-fluid">
+                                    <p class="footer_info_text">Info@wowmmo.co</p>
+                                </div>
+                                <div class="footer_info">
+                                    <img src="./img/footer_location.svg" alt="" class="img-fluid">
+                                    <p class="footer_info_text">123 place, City, Country, Post code</p>
+                                </div>
+                            </div>
+                            <div class="footer_group_div">
+                                <p class="footer_titles">Additional Links</p>
+                                <div class="footer_collector">
+                                    <div class="footer_main_collectors">
+                                        <p><a href="#" class="footer_links mb-3">Games Catalogue</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Sell</a></p>
+                                        <p><a href="#" class="footer_links mb-3">our story</a></p>
+                                    </div>
+                                    <div class="footer_main_collectors">
+                                        <p><a href="#" class="footer_links mb-3">Support</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Terms & Conditions</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Privacy policy</a></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="footer_group_div">
+                                <p class="footer_titles">Our Games</p>
+                                <div class="footer_collector">
+                                    <div class="footer_main_collectors">
+                                        <p><a href="#" class="footer_links mb-3">Valorant</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Tiny Tina’s Wonderlands </a></p>
+                                        <p><a href="#" class="footer_links mb-3">Temtem</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Star Trek Online</a></p>
+                                    </div>
+                                    <div class="footer_main_collectors">
+                                        <p><a href="#" class="footer_links mb-3">Runescape 3</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Neverwinter</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Lost Ark</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Lords Mobile Diamonds</a></p>
+                                    </div>
+                                    <div class="footer_main_collectors">
+                                        <p><a href="#" class="footer_links mb-3">Genshin Impact</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Forza Motorsport 7 </a></p>
+                                        <p><a href="#" class="footer_links mb-3">Forza Horizon 5</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Flyff Penya </a></p>
+                                    </div>
+                                    <div class="footer_main_collectors">
+                                        <p><a href="#" class="footer_links mb-3">Fifa 23</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Eve Online</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Elsword</a></p>
+                                        <p><a href="#" class="footer_links mb-3">Elden ring</a></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="footer_bottom">
+                        <p class="footer_claims">© 2023 wowmmo.co. All Rights Reserved. This site is not affiliated or owned by the listed gaming platform owners.</p>
+                        <img src="./img/visa_master_card.png" alt="" class="img-fluid d-flex mx-auto">
+                    </div>
+                </div>
+                <div class="footer_mobo">
+                    <div class="footer_mobo_one">
+                        <img src="./img/footer_logo_mobo.svg" alt="" class="img-fluid d-flex mx-auto">
+                        <div class="footer_info">
+                            <img src="./img/footer_email.svg" alt="" class="img-fluid">
+                            <p class="footer_info_text">Info@wowmmo.co</p>
+                        </div>
+                        <div class="footer_info">
+                            <img src="./img/footer_location.svg" alt="" class="img-fluid">
+                            <p class="footer_info_text">123 place, City, Country, Post code</p>
+                        </div>
+                    </div>
+                    
+                    <div class="footer_mobo_two">
+                        <p class="footer_titles">Additional Links</p>
+                        <div class="footer_collector">
+                            <!-- <div class="footer_main_collectors"> -->
+                                <button href="#" class="btn footer_links">Games Catalogue</button>
+                                <button href="#" class="btn footer_links">Sell</button>
+                                <button href="#" class="btn footer_links">our story</button>
+                            <!-- </div>
+                            <div class="footer_main_collectors"> -->
+                                <button href="#" class="btn footer_links">Support</button>
+                                <button href="#" class="btn footer_links">Terms & Conditions</button>
+                                <button href="#" class="btn footer_links">Privacy policy</button>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+
+                    <div class="footer_mobo_three">
+                        <p class="footer_titles">Our Games</p>
+                        <div class="footer_collector">
+                            <!-- <div class="footer_main_collectors"> -->
+                                <button href="#" class="btn footer_links">Valorant</button>
+                                <button href="#" class="btn footer_links">Tiny Tina’s Wonderlands </button>
+                                <button href="#" class="btn footer_links">Temtem</button>
+                                <button href="#" class="btn footer_links">Star Trek Online</button>
+                                <button href="#" class="btn footer_links">Genshin Impact</button>
+                                <button href="#" class="btn footer_links">Forza Motorsport 7 </button>
+                                <button href="#" class="btn footer_links">Forza Horizon 5</button>
+                                <button href="#" class="btn footer_links">Flyff Penya </button>
+                            <!-- </div>
+                            <div class="footer_main_collectors"> -->
+                                <button href="#" class="btn footer_links">Runescape 3</button>
+                                <button href="#" class="btn footer_links">Neverwinter</button>
+                                <button href="#" class="btn footer_links">Lost Ark</button>
+                                <button href="#" class="btn footer_links">Lords Mobile Diamonds</button>
+                                <button href="#" class="btn footer_links">Fifa 23</button>
+                                <button href="#" class="btn footer_links">Eve Online</button>
+                                <button href="#" class="btn footer_links">Elsword</button>
+                                <button href="#" class="btn footer_links">Elden ring</button>
+                            <!-- </div> -->
+                        </div>
+                    </div>
+
+                    <div class="footer_mobo_four">
+                        <p class="footer_claims">© 2023 wowmmo.co. All Rights Reserved. This site is not affiliated or owned by the listed gaming platform owners.</p>
+                        <img src="./img/visa_master_card.png" alt="" class="img-fluid d-flex mx-auto">
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+   
+    <script src="dist/js/jquery.min.js"></script>
+    <script src="dist/js/app.js"></script>
+    <script src="dist/js/owl.carousel.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="dist/js/popper.js"></script>
+    <script src="dist/js/slick.js"></script>
+    <script src="dist/js/flickity.pkgd.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.7/jquery.lazyload.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+    <script src="dist/js/jquery.lazyscrollloading.js"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $(".inactive").click(function(){
+                $(".mobile-slide-menu").fadeIn("slow");
+                $(".inactive").css("opacity", "0");
+                // $(".inactive").fadeOut("slow");
+            });
+            $(".menuactive").click(function(){
+                $(".mobile-slide-menu").fadeOut("slow");
+                $(".inactive").css("opacity", "1");
+                // $(".inactive").fadeIn("slow");
+            });
+            $(".item").hover(function () {
+              $(this).toggleClass("item-card_hover");
+          });
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#cart_icon_div_desk").click(function(){
+                var cart_id = document.getElementById('cart_drop');
+                if (cart_id.classList.contains('active')) {
+                    cart_id.classList.remove('active');
+                } else {
+                    cart_id.classList.add('active');
+                }
+            })
+
+            $("#cart_icon_div_mobo").click(function(){
+                var cart_id = document.getElementById('cart_drop_mobo');
+                if (cart_id.classList.contains('active')) {
+                    cart_id.classList.remove('active');
+                } else {
+                    cart_id.classList.add('active');
+                }
+            })
+        });
+    </script>
+     <script>
+        
+        $(document).ready(function(){       
+            var scroll_pos = 0;
+            let width = screen.width;
+            if (width < 601) {
+                $(document).scroll(function() { 
+                    scroll_pos = $(this).scrollTop();
+                    if(scroll_pos > 30) {
+                        $(".header-top").css('background', '#171718');
+                    } else {
+                        $(".header-top").css('background', '#171718');
+                    }
+                });
+            } else {
+                $(document).scroll(function() { 
+                 scroll_pos = $(this).scrollTop();
+                 if(scroll_pos > 30) {
+                     $(".header-top").css('background', 'rgba(23, 23, 24, 0.70)');
+                 } else {
+                     $(".header-top").css('background', 'rgba(23, 23, 24, 0.70)');
+                 }
+             });
+            }
+            
+        });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $('.currency_drop_text_div').click(function() {
+                const dropdown = document.getElementById('currency_dropdown');
+                if (dropdown.classList.contains('active')) {
+                    dropdown.classList.remove('active');
+                } else {
+                    dropdown.classList.add('active');
+                }
+            })
+        })
+
+        $(document).ready(function() {
+            $('.currency_drop_text_div').click(function() {
+                const dropdown = document.getElementById('currency_dropdown_mobo');
+                if (dropdown.classList.contains('active')) {
+                    dropdown.classList.remove('active');
+                } else {
+                    dropdown.classList.add('active');
+                }
+            })
+        })
+    </script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: false,
+            responsive:{
+                0:{
+                    items:1.4,
+                    center: true,
+                    dots: false,
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
+  </body>
+  </html>

@@ -1,0 +1,571 @@
+.LogRegis_Bg{
+    background: url('../img/Hero.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 64px;
+    height: 516px;
+}
+.LogTitle{
+    margin-top: 225px;
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: 'VALORANT';
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.LogBg{
+    background: url('../img/Unviversal_Bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 64px;
+    padding-top: 0px;
+    height: 1400px;
+}
+.LoginRegistForm{
+    position: relative;
+    background-image: url('../img/Login_BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    
+}
+.OuterBox_Login{
+    background: url('../img/Login\ Form.png');
+    width: 505px;
+    height: 415px;
+    padding: 24px;
+    margin-left: 62px;
+}
+.LoginForm{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 368px;
+    gap: 20px;
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+}
+.LName{
+    width: 376px;
+    height: 52px;
+    padding: 16px;
+    margin-bottom: 15px;
+    /* FOnts */
+    color: var(--SECONDARY, #171718);
+    font-family: 'Caros';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.FrgtBtn{
+    margin-left: 190px;
+    color: var(--functional-info-blue, #2F92F9);
+    /* p/Small */
+    font-family: 'Caros';
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.loginsBut{
+    width: 421px;
+    height: 47px;
+    padding: 12px 32px;
+    border: 1px solid var(--PRIMARY, #6EB24F);
+    background: var(--SECONDARY, #171718);
+    /* font */
+    color: var(--neutral-white, #FFF);
+    font-family: Caros;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 0.525px;
+    text-transform: uppercase;
+}
+.headerLogin{
+    color: #FFF;
+    font-family: 'VALORANT';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.OuterBox_Register{
+    background: url('../img/Sign\ up\ Form.png');
+    width: 505px;
+    height: 760px;
+    padding: 24px;
+}
+.RegisterForm{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    height: 712px;
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+}
+.Fname{
+    width: 376px;
+    height: 52px;
+    padding: 16px;
+    margin-left: -10px;
+    margin-bottom: 15px;
+    /* FOnts */
+    color: var(--SECONDARY, #171718);
+    font-family: 'Caros';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+}
+.CheckLogo{
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--neutral-700, #656565);
+    margin-right: 17px;
+    
+}
+.CheckLabel{
+    color: var(--neutral-white, #FFF);
+    font-family: Caros;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 24px;
+    margin-top: 2px;
+}
+.RecaptchaIm{
+    margin-left: 50px;
+    margin-bottom: 24px;
+}
+.SignUp{
+    width: 376px;
+    height: 47px;
+    padding: 12px 32px;
+    border: 1px solid var(--PRIMARY, #6EB24F);
+    background: var(--SECONDARY, #171718);
+    /* font */
+    color: var(--neutral-white, #FFF);
+    font-family: Caros;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 0.525px;
+    text-transform: uppercase;
+}
+.Img1{
+    margin-top: -200px;
+    position: absolute;
+    top: 500px;
+    width: 150px;
+    height: 150px;
+    left: 37px;
+}
+.Img2{
+    margin-top: -200px;
+    position: absolute;
+    bottom: 200px;
+    width: 150px;
+    height: 150px;
+    left: 37px;
+}
+.Img3{
+    margin-top: -200px;
+    position: absolute;
+    top: 830px;
+    width: 150px;
+    height: 150px;
+    right: 40px;
+}
+.Img4{
+    margin-top: -200px;
+    position: absolute;
+    bottom: 162px;
+    width: 150px;
+    height: 150px;
+    right: 40px;
+}
+
+/* Modal Css */
+.modal_title {
+    color: #FFF;
+    text-align: center;
+    font-family: 'VALORANT';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.modal_subtitle {
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: 'Caros';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.Close_modal {
+    width: 202px;
+    height: 47px;
+    padding: 12px 32px !important;
+    border: 1px solid var(--neutral-white, #FFF) !important;
+    background: var(--SECONDARY, #171718);
+    color: var(--neutral-white, #FFF);
+    font-family: 'Caros';
+    font-size: 15px!important;
+    font-style: normal;
+    font-weight: 300!important;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 0.525px;
+    text-transform: uppercase;
+}
+.c_modal_dialog {
+    max-width: 686px;
+    padding: 24px;
+    margin-top: 180px;
+    background: url('../img/Login\ Form.png');
+    box-shadow: 0px 4px 102px 0px rgba(204, 255, 186, 0.18);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #040a1000;
+    margin-top: 250px;
+}
+
+.modal_content {
+    position: relative;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #040a1000!important;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+.DoneButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.ResetModal{
+    width: 202px;
+    height: 47px;
+    padding: 12px 32px !important;
+    border: 1px solid var(--PRIMARY, #6EB24F) !important;
+    background: var(--SECONDARY, #171718);
+    color: var(--neutral-white, #FFF);
+    font-family: 'Caros';
+    font-size: 15px !important;
+    font-style: normal;
+    font-weight: 300 !important;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 0.525px;
+    text-transform: uppercase;
+}
+.EmailN{
+    width: 385px !important;
+    height: 52px;
+    padding: 16px;
+    margin-left: -1px;
+    margin-top: -10px !important;
+    color: var(--SECONDARY, #171718);
+    font-family: 'Caros';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Reset  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.ResetBg{
+    background: url('../img/Unviversal_Bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 64px;
+    padding-top: 0px;
+    height: 1400px;
+}
+.Reset_Bg{
+    background: url('../img/Hero.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 64px;
+    height: 516px;
+}
+.ResTTitle{
+    margin-top: 225px;
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: 'VALORANT';
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ResetContentForm{
+    position: relative;
+    background-image: url('../img/Login_BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.Submit{
+    width: 376px;
+    height: 47px;
+    padding: 12px 32px;
+    border: 1px solid var(--PRIMARY, #6EB24F);
+    background: var(--SECONDARY, #171718);
+    /* font */
+    color: var(--neutral-white, #FFF);
+    font-family: Caros;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 0.525px;
+    text-transform: uppercase;
+    margin-top: 24px;
+}
+.FormReset{
+    width: 500px;
+    height: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../img/Login\ Form.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 24px;
+}
+.ResetForm{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+}
+.headerlogin{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: Caros;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.RPass{
+    width: 376px;
+    height: 52px;
+    padding: 16px;
+    margin-left: -10px;
+    margin-bottom: 24px;
+    /* FOnts */
+    color: var(--SECONDARY, #171718);
+    font-family: 'Caros';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Support Hub ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.SupportBg{
+    background: url('../img/Unviversal_Bg.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 64px;
+    padding-top: 0px;
+    height: 1400px;
+}
+.Support_Bg{
+    background: url('../img/Hero.png');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    margin-bottom: 64px;
+    height: 516px;
+}
+.Support_Title{
+    margin-top: 225px;
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: 'VALORANT';
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.Support_Subtitle{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: 'Caros';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    opacity: 0.7;
+}
+.SupportHub_form{
+    position: relative;
+    background-image: url('../img/Login_BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.FormSuppot{
+    width: 920px;
+    height: 708px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url('../img/SupportForm.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 24px;
+}
+.SupportForm{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+}
+.imgsn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 60px;
+    position: relative;
+    display: flex;
+    width: 820px;
+    padding: 11px;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid var(--neutral-700, #656565);
+}
+.imgBottomDetal1{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: 'Caros';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 66px;
+}
+.imgBottomDetal3{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: 'Caros';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-right: 65px;
+}
+.imgBottomDetal{
+    color: var(--neutral-white, #FFF);
+    text-align: center;
+    font-family: 'Caros';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.AddHome{
+    position: relative;
+    left: 44px;
+}
+.phne{
+    position: relative;
+    left: 103px;
+}
+.Emil{
+    position: relative;
+    left: 72px;
+}
+.SForm{
+    margin-bottom: 16px;
+}
+.SForms{
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid var(--neutral-500, #D0D0D0);
+    background: var(--neutral-white, #FFF);
+    color: var(--SECONDARY, #171718);
+    font-family: 'Caros';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.SubmitReq{
+    width: 299px;
+    height: 47px;
+    padding: 12px 32px;
+    border: 1px solid var(--PRIMARY, #6EB24F);
+    background: var(--SECONDARY, #171718);
+    /* font */
+    color: var(--neutral-white, #FFF);
+    font-family: 'Caros';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%; /* 22.5px */
+    letter-spacing: 0.525px;
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+.desk{
+    display: block;
+}
+.Mob{
+    display: none;
+}
+.CheckLabelSup{
+    color: var(--neutral-white, #FFF);
+    font-family: Caros;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 24px;
+    margin-top: 2px;
+}
+.CheckLogosup{
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--neutral-700, #656565);
+    margin-right: 17px;
+}
